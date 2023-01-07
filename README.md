@@ -13,6 +13,8 @@
 5. An ASGI server (Asynchronous Server Gateway Interface) is required and Uvicorn is recommended by FastAPI using "pip install "uvicorn[standard]"
 6. Upon completion of installation the application contained in main.py can be deployed using "uvicorn main:app --reload" the flag --reload makes the application reloaded onces an update is done to it.
 7. Test application with 
+http://127.0.0.1:8000/jumble/{word} ## where word can be changed to any word of your choice
+Audit : curl http://localhost:8000/audit
 
 # Dockerization of the application
 
